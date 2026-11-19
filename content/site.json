@@ -1,31 +1,19 @@
 {
   "siteName": "Marius Varhaugvik",
-  "tagline": "composer, sound designer & artistic stage engineer",
+  "tagline": "composer, sound designer & artistic stage engineer and fun guy",
   "email": "marius.varhaugvik@gmail.com",
   "phone": "+46700544434",
+  "portrait": "/uploads/img_5166_3bdf537e73.jpg",
   "bioIntro": "Sound designer, composer & artistic stage engineer",
   "locationNote": "From Stockholm, Sweden. Lived in Berlin, Germany & Molde, Norway",
   "whatIDo": [
-    {
-      "item": "Composer"
-    },
-    {
-      "item": "Artistic stage engineer"
-    },
-    {
-      "item": "Mix & master"
-    },
-    {
-      "item": "Sound designer"
-    },
-    {
-      "item": "Sound technician"
-    },
-    {
-      "item": "Light design"
-    }
+    "Composer",
+    "Artistic stage engineer",
+    "Mix & master",
+    "Sound designer",
+    "Sound technician",
+    "Light design"
   ],
-  "portrait": "/uploads/img_5166_3bdf537e73.jpg",
   "education": [
     {
       "institution": "Stockholm University of the Arts",
