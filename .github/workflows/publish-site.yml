@@ -1,0 +1,73 @@
+name: Publish static site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "marius-web/**"
+      - "deploy/**"
+      - ".github/workflows/publish-site.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: publish-site
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: marius-web/package-lock.json
+
+      - name: Build static site
+        working-directory: marius-web
+        run: |
+          npm ci
+          npm run build:static
+
+      - name: Refuse an incomplete export
+        run: |
+          test -f marius-web/out/index.html
+          count=$(find marius-web/out/uploads -type f | wc -l)
+          if [ "$count" -lt 100 ]; then
+            echo "Refusing to publish: only ${count} upload files in the export."
+            exit 1
+          fi
+
+      - name: Push export to the Netlify repo
+        env:
+          GH_TOKEN: ${{ secrets.STATIC_DEPLOY_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "STATIC_DEPLOY_TOKEN is not set, so the built site was not pushed."
+            echo "Add a fine-grained PAT (Contents: Read and write on rafaelbecks/marius-website) as the STATIC_DEPLOY_TOKEN secret, then re-run this workflow."
+            exit 1
+          fi
+
+          gh repo clone rafaelbecks/marius-website /tmp/static-site -- --depth 1
+          rsync -a --delete \
+            --exclude '.git' \
+            --exclude 'README.md' \
+            marius-web/out/ /tmp/static-site/
+          cp deploy/netlify.toml /tmp/static-site/netlify.toml
+
+          cd /tmp/static-site
+          gh auth setup-git
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Static repo already matches this build."
+            exit 0
+          fi
+          git commit -m "Publish site from ${GITHUB_SHA}"
+          git push origin HEAD:main

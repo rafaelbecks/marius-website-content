@@ -1,0 +1,24 @@
+{
+  "title": "En dag",
+  "slug": "en-dag",
+  "published": true,
+  "category": "Performing arts",
+  "year": null,
+  "sortOrder": 26,
+  "role": "",
+  "venue": "",
+  "collaborators": "",
+  "summary": "",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/32597013_1720578138020788_5004147253623914496_n_0ce84f1324.jpg",
+  "gallery": [
+    {
+      "image": "/uploads/32597013_1720578138020788_5004147253623914496_n_0ce84f1324.jpg",
+      "alt": "En dag"
+    }
+  ],
+  "audioFiles": [],
+  "externalLinks": [],
+  "tags": []
+}

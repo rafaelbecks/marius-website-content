@@ -1,0 +1,28 @@
+{
+  "title": "Korallrev",
+  "slug": "korallrev",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2025,
+  "sortOrder": 9,
+  "role": "Composer & sound engineer",
+  "venue": "Temporarity",
+  "collaborators": "Annikki Wahlöö, Anna Mannerheim, Katarina Rodopoulos",
+  "summary": "Composer & sound engineer\nTemporarity\nAnnikki Wahlöö, Anna Mannerheim, Katarina Rodopoulos\n2025",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/korallrev_affisch_chatgpt_84578497bb.png",
+  "gallery": [
+    {
+      "image": "/uploads/korallrev_affisch_chatgpt_84578497bb.png",
+      "alt": "Korallrev"
+    }
+  ],
+  "audioFiles": [
+    {
+      "file": "/uploads/korallen_vaknar_alla_df18203f25.mp3"
+    }
+  ],
+  "externalLinks": [],
+  "tags": []
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Agnus Dei",
+  "slug": "agnus-dei",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2025,
+  "sortOrder": 8,
+  "role": "Music composer",
+  "venue": "Studio Västberga / Fringe festival",
+  "collaborators": "Amar Jašarević, Jennifer Löfgren, Tilda Aspelin, Emma Eastop, Casper Wijlhuizen",
+  "summary": "Music composer\nStudio Västberga / Fringe festival\nAmar Jašarević, Jennifer Löfgren, Tilda Aspelin, Emma Eastop, Casper Wijlhuizen\n2025",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/527753663_10235043102085726_1813004209785654037_n_58bad50d49.jpg",
+  "gallery": [
+    {
+      "image": "/uploads/527753663_10235043102085726_1813004209785654037_n_58bad50d49.jpg",
+      "alt": "Agnus Dei"
+    },
+    {
+      "image": "/uploads/f578cf_e10e76bb40604faf8bb5c45e64654598mv2_2_5e3f14612d.png",
+      "alt": "Agnus Dei"
+    },
+    {
+      "image": "/uploads/f578cf_d250f2811e814fc298c44d9388b6fbdbmv2_2_dcc71be761.png",
+      "alt": "Agnus Dei"
+    },
+    {
+      "image": "/uploads/f578cf_a165038e350248af83605130ecb3c5b6mv2_f7cd8bc3c1.png",
+      "alt": "Agnus Dei"
+    },
+    {
+      "image": "/uploads/f578cf_f8edcfce9800451983028fec2e79a64emv2_2_b47c8f33bc.png",
+      "alt": "Agnus Dei"
+    },
+    {
+      "image": "/uploads/f578cf_0627440ffb3c40e781abec9fe037c4cdmv2_1_0236066ab8.png",
+      "alt": "Agnus Dei"
+    }
+  ],
+  "audioFiles": [
+    {
+      "file": "/uploads/walter_mane_edc2917e1f.mp3"
+    },
+    {
+      "file": "/uploads/fakkoff_3_c3cf168120.mp3"
+    }
+  ],
+  "externalLinks": [],
+  "tags": []
+}

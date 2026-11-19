@@ -1,0 +1,24 @@
+{
+  "title": "Survivor",
+  "slug": "survivor",
+  "published": true,
+  "category": "Performing arts",
+  "year": null,
+  "sortOrder": 21,
+  "role": "",
+  "venue": "",
+  "collaborators": "",
+  "summary": "",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/image_1_fd9a398c5b.png",
+  "gallery": [
+    {
+      "image": "/uploads/image_1_fd9a398c5b.png",
+      "alt": "Survivor"
+    }
+  ],
+  "audioFiles": [],
+  "externalLinks": [],
+  "tags": []
+}

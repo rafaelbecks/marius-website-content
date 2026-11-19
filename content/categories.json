@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Performing arts",
+    "slug": "performing-arts",
+    "description": "Theatre, dance, and live performance composition & sound design.",
+    "sortOrder": 1,
+    "isPrimaryNav": true
+  },
+  {
+    "name": "Music",
+    "slug": "music",
+    "description": "Releases, remixes, music videos, and related music work.",
+    "sortOrder": 2,
+    "isPrimaryNav": true
+  },
+  {
+    "name": "Motion graphics",
+    "slug": "motion-graphics",
+    "description": "Composition and sound design for film, trailers, campaigns, and games.",
+    "sortOrder": 3,
+    "isPrimaryNav": true
+  }
+]

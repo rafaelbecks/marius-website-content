@@ -1,0 +1,56 @@
+{
+  "title": "Midnattsbekännelser",
+  "slug": "midnattsbekannelser",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2025,
+  "sortOrder": 5,
+  "role": "Composer & sound designer",
+  "venue": "Örebro länsteater",
+  "collaborators": "Jennifer Löfgren, Emma Eastop, Tilda Aspelin",
+  "summary": "Composer & sound designer\nÖrebro länsteater\nJennifer Löfgren, Emma Eastop, Tilda Aspelin\n2025",
+  "body": "",
+  "embedUrl": "https://youtu.be/vX30rJ1hNIc",
+  "coverImage": "/uploads/midnattsbekannelser_2025_lr_foto_erik_warlegard_12_1080x787_1_bbd0e16c04.jpg",
+  "gallery": [
+    {
+      "image": "/uploads/midnattsbekannelser_2025_lr_foto_erik_warlegard_12_1080x787_1_bbd0e16c04.jpg",
+      "alt": "Midnattsbekännelser"
+    },
+    {
+      "image": "/uploads/midnattsbekannelser_2025_lr_foto_erik_warlegard_5_1080x720_1_d1a3c1b2b3.jpg",
+      "alt": "Midnattsbekännelser"
+    },
+    {
+      "image": "/uploads/midnattsbekannelser_2025_lr_foto_erik_warlegard_8_668x1080_1_d1ffb6b233.jpg",
+      "alt": "Midnattsbekännelser"
+    },
+    {
+      "image": "/uploads/midnattsbekannelser_2025_lr_foto_erik_warlegard_11_1080x720_1_67c3a79936.jpg",
+      "alt": "Midnattsbekännelser"
+    },
+    {
+      "image": "/uploads/midnattsbekannelser_2025_lr_foto_erik_warlegard_720x1080_1_35027efd6b.jpg",
+      "alt": "Midnattsbekännelser"
+    }
+  ],
+  "audioFiles": [
+    {
+      "file": "/uploads/andrea_poppar_ut_3_55a62ef2b8.mp3"
+    },
+    {
+      "file": "/uploads/mammas_fiol_skrams_1ef80349a6.mp3"
+    },
+    {
+      "file": "/uploads/forfattarens_svara_gitarr_refrang_e8f4e94fd5.mp3"
+    },
+    {
+      "file": "/uploads/pennvassaren_circuit_bender_2_101513439e.mp3"
+    },
+    {
+      "file": "/uploads/scen_5_eller_9_creepy_pasta_1c42bdb370.mp3"
+    }
+  ],
+  "externalLinks": [],
+  "tags": []
+}

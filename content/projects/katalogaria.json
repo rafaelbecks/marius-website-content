@@ -1,0 +1,47 @@
+{
+  "title": "Katalogaria",
+  "slug": "katalogaria",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2024,
+  "sortOrder": 12,
+  "role": "Light designer & sound designer",
+  "venue": "Rabbit Hole",
+  "collaborators": "Director Sara Giese",
+  "summary": "Light designer & sound designer\nRabbit Hole\nDirector Sara Giese\n2024",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/screenshot_2025_11_17_at_12_15_01_d99d2731cb.png",
+  "gallery": [
+    {
+      "image": "/uploads/screenshot_2025_11_17_at_12_15_01_d99d2731cb.png",
+      "alt": "Katalogaria"
+    },
+    {
+      "image": "/uploads/12719_t_7118437624.jpg",
+      "alt": "Katalogaria"
+    },
+    {
+      "image": "/uploads/screenshot_2025_11_17_at_12_21_09_20756e379d.png",
+      "alt": "Katalogaria"
+    },
+    {
+      "image": "/uploads/screenshot_2025_11_17_at_12_20_06_38a58f48f6.png",
+      "alt": "Katalogaria"
+    },
+    {
+      "image": "/uploads/screenshot_2025_11_17_at_12_31_16_7b593a8819.png",
+      "alt": "Katalogaria"
+    }
+  ],
+  "audioFiles": [
+    {
+      "file": "/uploads/walk_of_shame_d0f6529001.mp3"
+    },
+    {
+      "file": "/uploads/walk_of_shame_2_187204bd70.mp3"
+    }
+  ],
+  "externalLinks": [],
+  "tags": []
+}

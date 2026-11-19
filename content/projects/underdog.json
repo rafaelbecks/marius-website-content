@@ -1,0 +1,53 @@
+{
+  "title": "Underdog",
+  "slug": "underdog",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2023,
+  "sortOrder": 15,
+  "role": "Composer & sound designer",
+  "venue": "Malmö Stadsteater",
+  "collaborators": "Director Dennis Sandin",
+  "summary": "Composer & sound designer\nMalmö Stadsteater\nDirector Dennis Sandin\n2023",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/emp_mst_underdog_7953_9470012863.jpg",
+  "gallery": [
+    {
+      "image": "/uploads/emp_mst_underdog_7953_9470012863.jpg",
+      "alt": "Underdog"
+    },
+    {
+      "image": "/uploads/emp_mst_underdog_3758_1f3d948001.jpg",
+      "alt": "Underdog"
+    },
+    {
+      "image": "/uploads/emp_mst_underdog_4428_b5ae9625f3.jpg",
+      "alt": "Underdog"
+    },
+    {
+      "image": "/uploads/emp_mst_underdog_5058_47816cce91.jpg",
+      "alt": "Underdog"
+    },
+    {
+      "image": "/uploads/emp_mst_underdog_8025_f3a434f812.jpg",
+      "alt": "Underdog"
+    }
+  ],
+  "audioFiles": [
+    {
+      "file": "/uploads/woman_kortare_c2b07f72ad.mp3"
+    },
+    {
+      "file": "/uploads/3_malmo_piano_8ead3f5ad3.mp3"
+    },
+    {
+      "file": "/uploads/mopeden_3_b9489d534d.mp3"
+    },
+    {
+      "file": "/uploads/trettonde_aug_slowww_2_6afd4e7d93.mp3"
+    }
+  ],
+  "externalLinks": [],
+  "tags": []
+}

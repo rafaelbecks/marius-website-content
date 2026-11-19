@@ -1,0 +1,44 @@
+{
+  "title": "404",
+  "slug": "404",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2025,
+  "sortOrder": 7,
+  "role": "Composer & sound designer",
+  "venue": "Turteatern residency",
+  "collaborators": "Julia Ahndoril, Hjalmar Nilsson",
+  "summary": "Composer & sound designer\nTurteatern residency\nJulia Ahndoril, Hjalmar Nilsson\n2025",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/533175968_1315172157284585_2147719845660315127_n_ccaa347615.jpg",
+  "gallery": [
+    {
+      "image": "/uploads/533175968_1315172157284585_2147719845660315127_n_ccaa347615.jpg",
+      "alt": "404"
+    },
+    {
+      "image": "/uploads/screenshot_2025_11_20_at_20_08_51_3603451ad5.png",
+      "alt": "404"
+    },
+    {
+      "image": "/uploads/screenshot_2025_11_20_at_20_09_04_c75a277285.png",
+      "alt": "404"
+    },
+    {
+      "image": "/uploads/screenshot_2025_11_20_at_20_09_14_7267e3d1d9.png",
+      "alt": "404"
+    },
+    {
+      "image": "/uploads/screenshot_2025_11_20_at_20_08_33_1_8da0df2f1f.png",
+      "alt": "404"
+    }
+  ],
+  "audioFiles": [
+    {
+      "file": "/uploads/sommarbeat_77a81484fb.mp3"
+    }
+  ],
+  "externalLinks": [],
+  "tags": []
+}

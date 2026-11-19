@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Album",
+    "slug": "album"
+  },
+  {
+    "name": "Artistic stage engineer",
+    "slug": "artistic-stage-engineer"
+  },
+  {
+    "name": "Campaign",
+    "slug": "campaign"
+  },
+  {
+    "name": "Composer",
+    "slug": "composer"
+  },
+  {
+    "name": "Documentary",
+    "slug": "documentary"
+  },
+  {
+    "name": "Game",
+    "slug": "game"
+  },
+  {
+    "name": "Internship",
+    "slug": "internship"
+  },
+  {
+    "name": "Light design",
+    "slug": "light-design"
+  },
+  {
+    "name": "Mix & master",
+    "slug": "mix-master"
+  },
+  {
+    "name": "Music video",
+    "slug": "music-video"
+  },
+  {
+    "name": "Remix",
+    "slug": "remix"
+  },
+  {
+    "name": "Sound designer",
+    "slug": "sound-designer"
+  }
+]

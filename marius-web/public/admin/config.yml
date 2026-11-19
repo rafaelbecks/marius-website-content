@@ -1,0 +1,142 @@
+backend:
+  name: github
+  repo: rafaelbecks/marius-website-content
+  branch: main
+  # Token sign-in. OAuth can be added later with a base_url.
+  auth_methods: [token]
+
+site_url: https://mariusvarhaugvik.com
+display_url: https://mariusvarhaugvik.com
+publish_mode: simple
+media_folder: marius-web/public/uploads
+public_folder: /uploads
+locale: en
+
+collections:
+  - name: site
+    label: About
+    files:
+      - label: About and contact
+        name: settings
+        file: content/site.json
+        fields:
+          - { label: Site name, name: siteName, widget: string }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Email, name: email, widget: string, required: false }
+          - { label: Phone, name: phone, widget: string, required: false }
+          - { label: Portrait, name: portrait, widget: image, required: false }
+          - { label: Bio, name: bioIntro, widget: text, required: false }
+          - { label: Location, name: locationNote, widget: string, required: false }
+          - label: What I do
+            name: whatIDo
+            widget: list
+            required: false
+            field: { label: Item, name: item, widget: string }
+          - label: Education
+            name: education
+            widget: list
+            required: false
+            fields:
+              - { label: Institution, name: institution, widget: string }
+              - { label: Program, name: program, widget: string, required: false }
+              - { label: Years, name: years, widget: string, required: false }
+          - label: Awards
+            name: awards
+            widget: list
+            required: false
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Year, name: year, widget: string, required: false }
+              - { label: Organization, name: organization, widget: string, required: false }
+          - label: Social links
+            name: socialLinks
+            widget: list
+            required: false
+            fields:
+              - label: Platform
+                name: platform
+                widget: select
+                options: [instagram, linkedin, youtube, facebook, spotify, other]
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string, required: false }
+          - label: Internships
+            name: internships
+            widget: list
+            required: false
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: URL, name: url, widget: string }
+
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: content/projects
+    create: true
+    delete: true
+    format: json
+    extension: json
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    summary: "{{year}} · {{title}}"
+    sortable_fields: [year, title, sortOrder]
+    preview_path: "projects/{{slug}}/"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: URL slug
+        name: slug
+        widget: string
+        hint: "The page address, lowercase with hyphens. Example: en-dag. Do not change this after the page is live."
+        pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use lowercase letters, numbers, and hyphens"]
+      - { label: Published, name: published, widget: boolean, default: true }
+      - label: Category
+        name: category
+        widget: select
+        options: ["Performing arts", "Music", "Motion graphics"]
+      - { label: Year, name: year, widget: number, value_type: int, required: false }
+      - label: Sort order
+        name: sortOrder
+        widget: number
+        value_type: int
+        default: 0
+        hint: "Lower numbers appear first within the same year."
+      - { label: Role, name: role, widget: string, required: false }
+      - { label: Venue, name: venue, widget: string, required: false }
+      - { label: Collaborators, name: collaborators, widget: text, required: false }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - label: Body
+        name: body
+        widget: text
+        required: false
+        hint: "One paragraph per line, or separate paragraphs with a blank line."
+      - label: Video or audio embed URL
+        name: embedUrl
+        widget: string
+        required: false
+        hint: "YouTube, Vimeo, Spotify, or SoundCloud link."
+      - { label: Cover image, name: coverImage, widget: image, required: false }
+      - label: Gallery
+        name: gallery
+        widget: list
+        required: false
+        fields:
+          - { label: Image, name: image, widget: image }
+          - { label: Description, name: alt, widget: string, required: false }
+      - label: Audio files
+        name: audioFiles
+        widget: list
+        required: false
+        summary: "{{fields.file}}"
+        fields:
+          - { label: Audio file, name: file, widget: file }
+      - label: Links
+        name: externalLinks
+        widget: list
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: URL, name: url, widget: string }
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        field: { label: Tag, name: tag, widget: string }

@@ -1,0 +1,29 @@
+{
+  "title": "Hjältinnor",
+  "slug": "hjaltinnor",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2021,
+  "sortOrder": 24,
+  "role": "Composition & sound design",
+  "venue": "Arabiska Teatern",
+  "collaborators": "",
+  "summary": "Composition & sound design\nArabiska Teatern\n2021",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/image_c02a2e3b96.png",
+  "gallery": [
+    {
+      "image": "/uploads/image_c02a2e3b96.png",
+      "alt": "Hjältinnor"
+    }
+  ],
+  "audioFiles": [],
+  "externalLinks": [
+    {
+      "label": "http://www.arabiskateatern.se/hjltinnor",
+      "url": "http://www.arabiskateatern.se/hjltinnor"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,90 @@
+{
+  "siteName": "Marius Varhaugvik",
+  "tagline": "composer, sound designer & artistic stage engineer",
+  "email": "marius.varhaugvik@gmail.com",
+  "phone": "+46700544434",
+  "bioIntro": "Sound designer, composer & artistic stage engineer",
+  "locationNote": "From Stockholm, Sweden. Lived in Berlin, Germany & Molde, Norway",
+  "whatIDo": [
+    {
+      "item": "Composer"
+    },
+    {
+      "item": "Artistic stage engineer"
+    },
+    {
+      "item": "Mix & master"
+    },
+    {
+      "item": "Sound designer"
+    },
+    {
+      "item": "Sound technician"
+    },
+    {
+      "item": "Light design"
+    }
+  ],
+  "portrait": "/uploads/img_5166_3bdf537e73.jpg",
+  "education": [
+    {
+      "institution": "Stockholm University of the Arts",
+      "program": "Sound Design",
+      "years": "2021-2024"
+    },
+    {
+      "institution": "Uppsala University",
+      "program": "Musiklivets organisation och strukturer",
+      "years": "2016"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Årets politiska",
+      "year": "2017",
+      "organization": "Scenkonstgalan"
+    },
+    {
+      "title": "Festival hero award",
+      "year": "2025",
+      "organization": "Fringe festival"
+    },
+    {
+      "title": "Out of body experience",
+      "year": "2025",
+      "organization": "Fringe festival"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/",
+      "label": "Instagram"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/",
+      "label": "LinkedIn"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/",
+      "label": "YouTube"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/",
+      "label": "Facebook"
+    }
+  ],
+  "internships": [
+    {
+      "label": "Ambiens, 2021",
+      "url": "https://ambiens.studio/"
+    },
+    {
+      "label": "KonstAB, 2023",
+      "url": "https://www.dramaten.se/repertoar/konstabs-ingmar-bergmans-sasom-i-en-spegel"
+    }
+  ]
+}

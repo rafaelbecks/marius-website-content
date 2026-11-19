@@ -1,0 +1,29 @@
+{
+  "title": "Radio interview",
+  "slug": "radio-interview",
+  "published": true,
+  "category": "Music",
+  "year": null,
+  "sortOrder": 3,
+  "role": "Sveriges Radio P3",
+  "venue": "",
+  "collaborators": "",
+  "summary": "Sveriges Radio P3",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/img_8003_c58ea3caa0.jpg",
+  "gallery": [
+    {
+      "image": "/uploads/img_8003_c58ea3caa0.jpg",
+      "alt": "Radio interview"
+    }
+  ],
+  "audioFiles": [],
+  "externalLinks": [
+    {
+      "label": "https://sverigesradio.se/avsnitt/marius-mane-ser-vikten-i-att-utveckla-sitt-skapande",
+      "url": "https://sverigesradio.se/avsnitt/marius-mane-ser-vikten-i-att-utveckla-sitt-skapande"
+    }
+  ],
+  "tags": []
+}

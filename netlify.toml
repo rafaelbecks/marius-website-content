@@ -1,10 +1,10 @@
-# Static portfolio export (marius-web/out/)
-# Build locally or in CI with Strapi running — see README "Netlify deploy".
+# Optional: build this repo on Netlify.
+# The live site is published by .github/workflows/publish-site.yml into the static repo.
 
 [build]
   base = "marius-web"
   publish = "out"
-  command = "node scripts/prepare-static.mjs && STRAPI_URL=http://localhost:1337 NEXT_PUBLIC_STRAPI_URL= npm run build"
+  command = "npm run build:static"
 
 [build.environment]
   NODE_VERSION = "20"

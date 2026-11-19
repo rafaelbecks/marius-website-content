@@ -1,0 +1,47 @@
+{
+  "title": "Den gröne riddaren",
+  "slug": "den-grone-riddaren",
+  "published": true,
+  "category": "Performing arts",
+  "year": 2026,
+  "sortOrder": 2,
+  "role": "Composer & sound designer",
+  "venue": "Turteatern",
+  "collaborators": "Pedersen/Bechmann",
+  "summary": "Composer & sound designer\nTurteatern\nPedersen/Bechmann\n2026",
+  "body": "",
+  "embedUrl": "",
+  "coverImage": "/uploads/den_grone_riddaren_341c49e389.webp",
+  "gallery": [
+    {
+      "image": "/uploads/den_grone_riddaren_341c49e389.webp",
+      "alt": "Den gröne riddaren"
+    },
+    {
+      "image": "/uploads/dsf1694_edit_2048x1536_1_0f0f078d7b.jpg",
+      "alt": "Den gröne riddaren"
+    }
+  ],
+  "audioFiles": [
+    {
+      "file": "/uploads/arpeggio_kattmus_excc_3_599f51168b.mp3"
+    },
+    {
+      "file": "/uploads/bassderk_tur_30a60441a1.mp3"
+    },
+    {
+      "file": "/uploads/born_to_be_divine_2_0706fb4636.mp3"
+    },
+    {
+      "file": "/uploads/fight_with_the_spaceworm_a382d9d08d.mp3"
+    },
+    {
+      "file": "/uploads/kometregn_2_2fe358fb37.mp3"
+    },
+    {
+      "file": "/uploads/tredje_slutfesten_2_0ce23a8eda.mp3"
+    }
+  ],
+  "externalLinks": [],
+  "tags": []
+}
