@@ -38,7 +38,20 @@
       "alt": "Glaciären"
     }
   ],
-  "audioFiles": [],
+  "audioFiles": [
+    {
+      "file": "/uploads/Love Birds - Kom igen!_6.wav"
+    },
+    {
+      "file": "/uploads/LoveBirds - Hon är min Kastanj_2.wav"
+    },
+    {
+      "file": "/uploads/LoveBirds - see u_3.wav"
+    },
+    {
+      "file": "/uploads/LoveBirds - Sommarn.wav"
+    }
+  ],
   "externalLinks": [],
   "tags": []
 }
